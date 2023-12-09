@@ -26,6 +26,7 @@ footer svg:hover {
 section {
   width: 50%;
   height: 100vh;
+  min-height: 865px;
 }
 
 .about {
@@ -192,6 +193,7 @@ footer {
 .project-carousel {
   width: 100%;
   height: 100vh;
+  min-height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,9 +401,7 @@ footer {
 }
 
 @media only screen and (max-width: 610px) {
-  .portrait-section {
-    margin-top: 15px;
-  }
+  .portrait-section {}
 
   .description {
     //min-width: 387px;
