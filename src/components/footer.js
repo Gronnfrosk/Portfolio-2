@@ -1,6 +1,6 @@
 //import Image from 'react-bootstrap/Image';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 
 export default function Footer() {
 
