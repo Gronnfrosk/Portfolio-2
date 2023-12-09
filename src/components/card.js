@@ -30,7 +30,7 @@ console.log(ScreenShot)
       </Modal> 
       <div className="img-project d-flex flex-wrap flex-row">
       <div className="d-flex flex-column part-1 bg-white px-3 gap-3">
-          <div className="fs-3 mb-3 mt-2 d-flex justify-content-between">Project <div className="project-number">{Project}</div></div>
+          <div className="title-project fs-3 mb-3 mt-2 d-flex justify-content-between">Project <div className="project-number">{Project}</div></div>
           <div className="list-btn">
           <ListGroup>
             <ListGroup.Item className="top-list">Buildt with:</ListGroup.Item>
