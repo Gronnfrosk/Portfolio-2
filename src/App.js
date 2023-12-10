@@ -21,8 +21,8 @@ function App() {
       </header>
       <div className="description">
         <p>
-          Yet another year has passed by with frontend study at Noroff and now I want to present to you
-          my three most recent projects.
+          Yet another year has passed by with frontend development study at Noroff and now I want to present to you
+          my three most recent projects. 
         </p>
         <div className="links text-center mt-4 d-flex justify-content-center align-items-center gap-4"> 
           <a
@@ -86,7 +86,7 @@ function App() {
     </section>
     </div>
     <section className="project-carousel" id="projects">
-      <div style={{maxWidth: "928px", margin: "0 50px"}}>
+      <div style={{maxWidth: "874px", margin: "0 50px"}}>
         <CardCarousel />
       </div>
     </section>

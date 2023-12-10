@@ -1,7 +1,7 @@
 export const semesterProject2 = {
     Name: <div>Auction point - Auction website </div>,
     Description: "Semester Project 2: This is an auction website where users can add items to be bid on and bid on items other users have put up for auction. When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings and see other users profile.",
-    ScreenShot: "",
+    ScreenShot: "./images/semester-project-2.PNG",
     Repository: "https://github.com/Gronnfrosk/Noroff-Semester-Project-2",
     Demo: "https://gronnfrosk.github.io/Noroff-Semester-Project-2/",
     Project: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#565656" className="bi bi-1-circle" viewBox="0 0 16 16">
@@ -14,7 +14,7 @@ export const semesterProject2 = {
 export const javaScriptFrameworksCA = {
     Name: <div>eCom - Online store</div>,
     Description: "JavaScript Frameworks CA: This is an auction website where users can add items to be bid on and bid on items other users have put up for auction. When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings and see other users profile.",
-    ScreenShot: "./eCom.PNG",
+    ScreenShot: "./images/e-com.PNG",
     Repository: "https://github.com/Gronnfrosk/JavaScript-CA",
     Demo: "https://eclectic-valkyrie-e91b6b.netlify.app/",
     Project: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#565656" className="bi bi-2-circle" viewBox="0 0 16 16">
@@ -27,7 +27,7 @@ export const javaScriptFrameworksCA = {
 export const projectExam2 = {
     Name: <div>Holidaze <br/> - Booking and renting out venue site</div>,
     Description: "Holidaze is a modern front-end accommodation booking application developed for a newly launched site. This project serves as a practical example for educational purposes. It offers a dual-interface for both customers and venue managers. Customers can book holidays, view venues, and manage their bookings. Venue managers can register, manage venues, and oversee bookings. Please note that Holidaze is a hypothetical entity and is solely for use in this project assignment.",
-    ScreenShot: "./images/portfolio.PNG",
+    ScreenShot: "./images/home-page.PNG",
     Repository: "https://github.com/Gronnfrosk/project-exam-2",
     Demo: "https://vermillion-cobbler-c1407e.netlify.app/",
     Project: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#565656" className="bi bi-3-circle" viewBox="0 0 16 16">

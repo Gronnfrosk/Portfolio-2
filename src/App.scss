@@ -40,13 +40,18 @@ section {
   color: white;
   background-color: #3F5759;
 
-  .description {
+  & .description {
     margin: 10px 30px;
     color: black;
     background-color: white;
     border-radius: 500px;
     border: #3F5759 double 20px;
     padding: 50px 50px 10px 50px;
+
+    & p {
+      margin: auto;
+      max-width: 600px;
+    }
   }
 
   & a {
