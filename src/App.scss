@@ -260,7 +260,7 @@ footer {
     }
 
     & .card-body {
-      height: 200px;
+      min-height: 200px;
       max-width: 750px;
       margin: auto;
       border: 5px #3F5759 double;
@@ -395,6 +395,8 @@ footer {
       }
     }
 
+
+
     & .list-btn {
       margin-top: 20px;
       display: flex;
@@ -437,6 +439,18 @@ footer {
 
   .modal-dialog {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 611px) {
+  .project-carousel .carousel-container .card-body {
+    height: 278px;
+
+    & .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
 
@@ -513,7 +527,6 @@ footer {
 
       & .card-body {
         height: 420px;
-        overflow: scroll;
         margin-top: 17px !important;
 
         & .card-title {

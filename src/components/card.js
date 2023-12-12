@@ -57,7 +57,7 @@ const [show, setShow] = useState(false);
       />
       </div>
       <Card.Body className="d-flex gap-5 bg-white mt-4">
-        <div>
+        <div className="content">
         <Card.Title>{Name}</Card.Title>
         <Card.Text>
         {Description}
