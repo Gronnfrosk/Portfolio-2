@@ -22,7 +22,7 @@ function App() {
       <div className="description">
         <p>
           Yet another year has passed by with frontend development study at Noroff and now I want to present to you
-          my three most recent projects. These projects serves as a practical example for educational purposes.
+          my three most recent projects. Please note: These websites are for fictional companies. No actual transactions can occur on these websites.
         </p>
         <div className="links text-center mt-4 d-flex justify-content-center align-items-center gap-4"> 
           <a
