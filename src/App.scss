@@ -46,7 +46,7 @@ section {
     background-color: white;
     border-radius: 500px;
     border: #3F5759 double 20px;
-    padding: 50px 50px 10px 50px;
+    padding: 50px 37px 10px 37px;
 
     & p {
       margin: auto;
@@ -186,26 +186,27 @@ header svg {
 }
 
 footer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 17px;
   padding-bottom: 15px;
-  background-color: white;
+  background-color: #3F5759;
   //width: 400px;
-  //border: 4px dotted #5f2b7b;
+  border-top: 20px solid white;
 
   a svg {
-    color: #3F5759;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.75rem;
   }
 }
 
 .project-carousel {
   width: 100%;
-  height: 100vh;
-  min-height: 1000px;
+  height: 95vh;
+  //min-height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -491,7 +492,6 @@ footer {
 
     & img {
       width: 300px;
-      border: #c0c0c0 4px solid !important;
     }
   }
 
