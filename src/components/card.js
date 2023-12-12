@@ -10,7 +10,13 @@ const { Name, Description, ScreenShot, Repository, Demo, Project, Built } = prop
 const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    var width = window.innerWidth;
+  if (width < 610) {setShow(false)}
+  else {
+     setShow(true)
+  }
+};
 
   return (
     <Card className="mx-auto" style={{ maxWidth: '58rem'}}>

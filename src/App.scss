@@ -46,7 +46,7 @@ section {
     background-color: white;
     border-radius: 500px;
     border: #3F5759 double 20px;
-    padding: 50px 37px 10px 37px;
+    padding: 50px 37px 10px 42px;
 
     & p {
       margin: auto;
@@ -332,8 +332,19 @@ footer {
   .about {
     width: 100%;
 
-    a {
+    & a {
       z-index: 2;
+    }
+
+    & .short-cut a {
+      margin-top: 20px !important;
+    }
+
+    & header {
+      font-size: 1.2rem !important;
+      margin-bottom: 4rem !important;
+
+
     }
   }
 
@@ -343,22 +354,35 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    & p {
+      font-size: 0.9rem !important;
+    }
   }
+
 
   .portrait-section {
     position: absolute;
     right: 0;
+    width: 100%;
+    top: 200px;
+    height: fit-content;
 
     & .portrait {
-      height: 135px;
+      //height: 135px;
       max-width: 200px;
       border-radius: 100%;
-      border: 5px solid white;
+      //border: 5px solid white;
     }
 
     & .border-light {
       background-color: transparent;
       height: fit-content;
+    }
+
+    & img {
+      height: 155px;
+      border: none;
     }
   }
 
@@ -462,16 +486,8 @@ footer {
   .about {
     display: block;
 
-    & .short-cut a {
-      margin-top: 20px !important;
-    }
-
-    & header {
-      font-size: 1.2rem !important;
-
-      & h1 {
-        font-size: 1.5rem !important;
-      }
+    & header h1 {
+      font-size: 1.5rem !important;
     }
   }
 
