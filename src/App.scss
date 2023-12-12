@@ -241,9 +241,10 @@ footer {
     }
 
     & img {
+      box-shadow: 2px 2px 10px 4px #adabab;
       margin: auto;
-      max-width: 570px !important;
-      border: #c0c0c0 30px solid;
+      max-width: 35rem !important;
+      //border: #EAF3EA 30px solid;
 
       &:hover {
         cursor: pointer;
@@ -258,6 +259,7 @@ footer {
     }
 
     & .card-body {
+      height: 200px;
       max-width: 750px;
       margin: auto;
       border: 5px #3F5759 double;
@@ -372,6 +374,7 @@ footer {
 
   .img-project {
     justify-content: center;
+    gap: 10px;
     row-gap: 2rem;
 
     & .part-1 {
@@ -484,6 +487,7 @@ footer {
   }
 
   .img-project {
+    gap: 20px;
 
     & img {
       width: 300px;
@@ -496,11 +500,57 @@ footer {
 
     & .card {
       width: 340px;
+      padding: 10px;
       //padding: 20px;
 
       & .card-body {
-        height: 400px;
+        height: 420px;
         overflow: scroll;
+        margin-top: 17px !important;
+
+        & .card-title {
+          font-size: 1.15rem;
+        }
+
+        & .card-text {
+          font-size: 0.95rem;
+        }
+      }
+
+      & .title-project {
+        position: initial;
+        margin-bottom: 0px !important;
+      }
+
+      & .list-btn {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: 10px;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 15px;
+
+        & .link-btn {
+          flex-direction: row;
+          gap: 10px;
+
+          & a {
+            margin: 10px 0 0 0 !important;
+            display: flex;
+            justify-content: center;
+            width: 140px;
+
+          }
+
+          & svg {
+            display: block;
+          }
+        }
+
+        & .list-group {
+          display: none;
+        }
       }
     }
   }
@@ -511,7 +561,7 @@ footer {
 
     & span {
       width: 20px;
-      height: 45px;
+      height: 30px;
       background-color: rgb(66, 60, 60) !important;
       margin: 10px 0;
       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);

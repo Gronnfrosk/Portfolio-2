@@ -4,7 +4,7 @@ import { semesterProject2, javaScriptFrameworksCA, projectExam2 } from "./Projec
 
 function CardCarousel() {
   return (
-    <Carousel fade>
+    <Carousel >
       <Carousel.Item interval={100000000000000}>
         <div className="carousel-container">
        <ProjectCard content={semesterProject2}/></div>
